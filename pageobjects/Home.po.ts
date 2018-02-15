@@ -1,6 +1,6 @@
 import { browser, by, element } from 'protractor';
 
-export class HomePage {
+ export class HomePage {
   navigateToProtractor() {
     return browser.get('http://www.protractortest.org');
   }
@@ -18,3 +18,6 @@ export class HomePage {
   } */
 
 }
+
+//  export { HomePage }
+//  export { HomePage as Home }

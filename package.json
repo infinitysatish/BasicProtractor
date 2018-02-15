@@ -6,7 +6,9 @@
   "scripts": {
     "pretest": "npm run tsc",
     "test": "protractor ConvertedJSFiles/config.js",
-    "tsc": "tsc"
+    "tsc": "tsc",
+    "prestart":"webdriver-manager update",
+    "start": "webdriver-manager start"
   },
   "keywords": [],
   "author": "",
@@ -21,5 +23,9 @@
     "@types/jasmine": "^2.8.6",
     "@types/require-dir": "^0.3.0",
     "@types/jasminewd2": "^2.0.0"
+  },
+  "repository" : { 
+    "type" : "git", 
+    "url" : "https://github.com/infinitysatish/Protractorts.git"
   }
 }

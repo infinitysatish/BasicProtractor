@@ -1,5 +1,4 @@
 import { HomePage } from '../pageobjects/Home.po';
-import {} from 'jasmine';
 
 describe('Open Angular Website', () => {
   let page: HomePage;
